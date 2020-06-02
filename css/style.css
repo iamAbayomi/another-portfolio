@@ -7,7 +7,7 @@
     right: 0;
     background-color: white;
     border: black;
-    border-style: solid;
+    /* border-style: solid; */
     justify-content: space-between;
 }
 
@@ -17,6 +17,7 @@
     font-size: 22px;   
     height: 100%;
     margin-left: 100px;
+   
     /* border-style: solid; */
 }
 
@@ -26,9 +27,14 @@
 
 #nav-id a{
     /* float: left;
-    display: block; */   
-    color: black;
+    display: block; */  
+    color: #032E6E; 
+    opacity: 0.35;
     text-decoration: none;
+}
+ 
+#nav-id a:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 #btn-conatianer{
@@ -42,10 +48,15 @@
 
 
 .hire-me{
-    width: 200px;
-    height: 32px;
+    width: 150px;
+    height: 38px;
     background-color:#2762BC;
     color: white;
+    font-size: 18px;
     border-color:#2762BC;
+    margin: 18px;
     border-style: solid;
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
 }
