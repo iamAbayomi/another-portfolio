@@ -172,6 +172,7 @@ body{
     max-width: 950px;  
     margin-top: 200px;
     display: flex; 
+    flex-wrap: wrap-reverse;
     justify-content: space-between;
 }
 
@@ -192,8 +193,8 @@ body{
 
 
 .work-image img{
-     width: 100%;     
-    /* width: 460px; */
+     
+     width: 460px;
     margin-top: 10px;
 }
 
@@ -237,6 +238,7 @@ body{
     max-width: 950px;
     padding-top: 100px;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 
