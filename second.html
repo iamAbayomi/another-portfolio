@@ -19,7 +19,7 @@
             <!-- Begining of navbar -->
             <nav class="top-navbar" id="myTopnav">
                 <!-- NavBar Elements -->
-                <div id="nav-id">
+                <div class="nav-id">
                     <p><a href="index.html">About</a></p>
                     <p><a href="#Work">Work</a></p>
                     <p><a href="#">Blog</a></p>
@@ -27,11 +27,11 @@
                   
                 </div>
                 <!-- Begining of Button Container -->
-                <div id="btn-container">
+                <!-- <div id="btn-container">
                     <button class="hire-me">Hire Me</button>
-                </div> 
+                </div>  -->
 
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <a  href="javascript:void(0);" class="icon" onclick="myFunction()">
                     <i class="fa fa-bars"></i>
                   </a>
                 <!-- End of Button Container -->
@@ -142,18 +142,7 @@
             <!--JavaScript at end of body for optimized loading-->
       <!-- <script type="text/javascript" src="js/materialize.min.js"></script> -->
       
-      <script>
-          /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-            function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-            }
-
-      </script>
+      <script type="text/javascript" src="javascript/navbar.js" >  </script>
 
     </body>
 </html>
