@@ -182,7 +182,7 @@ body{
 .value-prop{
     margin: auto;
     max-width: 800px;
-    padding-top: 30vh;
+    padding-top: 25vh;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap-reverse;
@@ -194,7 +194,7 @@ body{
 @media screen and (max-width: 600px){
     .value-prop{
         /* padding-top: 20vh; */
-        padding-bottom: 10vh;
+        padding-bottom: 0vh;
         margin-bottom: auto;    
     }    
 
@@ -237,25 +237,26 @@ body{
 
 
 .main-text{
-    font-size: 2.25rem;
+    font-size: 2.5rem;
     font-weight: 600;   
 }
 
 @media (min-width: 700px){ 
     .main-text { 
-      font-size: 3.5rem; 
+      font-size: 3.0rem; 
     }
   }
   
   @media (min-width: 1000px){   
     .main-text {
-      font-size: 64px; 
+      font-size: 52px; 
     }
   }
   
 
 .main-description{
     opacity: 0.7;
+    font-size: 17px;
     margin-top: -20px;
     max-width: 450px;
 }
@@ -275,7 +276,14 @@ body{
 }
 
 .no-line{
-  
+   color:  red;
+   opacity: 1;
+   /* text-decoration: none; */
+}
+
+.line{
+   color: #031E47;
+   opacity: 1;
    text-decoration: none;
 }
 
