@@ -15,10 +15,17 @@ body{
 
 
 .work-section{
-     height: 100vh ; 
+     /* height: 100vh ;  */
      /* padding-top: 20px; */
     background-color: #2762BC;   
     text-decoration: none;
+}
+
+@media screen and (min-width:700px){
+    .work-section{
+        height: 100vh;
+        padding-top: 10vh;
+    }
 }
 
 .no-line{
