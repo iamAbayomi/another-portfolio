@@ -1,3 +1,0 @@
-<div id="btn-container">
-                    <button class="hire-me">Hire Me</button>
-                </div> 
