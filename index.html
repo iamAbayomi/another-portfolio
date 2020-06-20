@@ -1,40 +1,45 @@
 <html>
     <!-- Head of the website -->
-   <head>
+    <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="css/style.css" >
+        <link rel="stylesheet" type="text/css" href="css/newstyle.css" >
               <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
-      <!-- <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/> -->
+      <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     </head>
+    
    <!-- Body of the webpage -->
     <body>
     <!-- The main container for the whole website -->
     <div id="container">
-       
-        <!-- Above fold of the webpage -->
-        <div class="above-fold">
-           
-            <!-- top navbar -->
-            <nav id="top-navbar">
+        <!-- Begining div for above fold of the webpage -->
+        <div class="above-fold">  
+            <!-- Begining of navbar -->
+            <nav class="top-navbar" id="myTopnav">
                 <!-- NavBar Elements -->
-                <div id="nav-id">
-                    <p><a href="index.html">About</a></p>
-                    <p><a href="#">Work</a></p>
-                    <p><a href="#">Blog</a></p>
-                    <p><a href="#">Contact</a></p>
+                <div class="nav-id">
+                    <p><a href="index.html">Oladiniabayomi.com</a></p>
+                    <p><a href="#Work" style="font-size: 18px;">Projects</a></p>
+                    <p><a href="#"></a></p>
+                    <p><a href="#"></a></p>
+                  
                 </div>
-
-                <div id="btn-container">
+                <!-- Begining of Button Container -->
+                <!-- <div id="btn-container">
                     <button class="hire-me">Hire Me</button>
-                </div> 
+                </div>  -->
 
+                <a  href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <!-- End of Button Container -->
             </nav>
-          
+            <!--End of navbar-->
+
             <!-- Main Section -->
-            <main class="main">
-               
+            <main class="main"> 
                 <!-- Value Proposition -->
                 <div class="value-prop">
                     <!-- Value Proposition for text -->
@@ -50,28 +55,31 @@
                     </div>
                 <!--End of value proposition-->
                 </div>
-
-        <!-- Above fold of the webpage -->  
+        <!--End div for above fold of the webpage -->  
         </div>
-      
-
+                <a class="no-line" href="http://www.spiinge.com" target="_blank">
+                <!-- Portfolio Section -->
                 <section class="work-section" >
                     <p class="section-description">Work</p>
-                    <!-- Work Item -->
+                   <!-- Portfolio Item-->
                     <div class="work-item">
+                        <!-- Project Description -->
                         <div class="work-text">
                             <p class="work-title">Spiinge</p>   
                             <p class="work-description">With Spiinge you can save your webpages as cards so you never forget an article or reference. Also share your cards with everyone. Try here today</p>
                         </div>
-
-                        <!-- Work ScreenShot -->
+                        <!-- Project ScreenShot -->
                         <div class="work-image">
                             <img src="images/spiinge-shot.jpg"  >
                         </div>
                     </div>
+                    <!-- End of Portfolio Item -->
                 </section>
-
-                <section class="writings-section">
+            </a>
+                <!-- End of Portfolio Section -->
+                    
+                <!-- Writing Section -->
+                <!-- <section class="writings-section">
                     <p class="section-description">Writings</p>
                  
                   <div class="writings-text-section">
@@ -90,47 +98,27 @@
                         <p class="writings-description" >With Spiinge you can save your webpages as cards so you never forget an article or reference. 
                             Also share your cards with everyone. Try here today</p>
                      </div>
-                  </div>    
-               
-                </section>
+                  </div>     
+                </section> -->
+                <!--End of Writing Section -->
+
+<!--                 
 
                 <section class="contact-section">
-                    
+    
                     <div class="section-container">
-                        <p class="section-text">Let's Work together
-                            . <br><br> Add your message here<br><br> I reply immediately
+    
+                        <p class="section-text">
+                               Please feel free to contact me at <a class="no-line white-text" href="mailto:oladinifolawiyo@gmail.com"> oladinifolawiyo@gmail.com</a>
                         </p>
                        
-                        <div class="contact-from">
-                            <form id="form">
-                            
-                                <label for="name-label" class="name-label" >Name</label>
-                                <input type="name"
-                                        class="name-text"
-                                        placeholder=" "
-                                        required
-                                >
-                                <label for="name-label" class="name-label">Email</label>
-                                <input type="email"
-                                        class="name-text"
-                                        placeholder=" "
-                                        required
-                                >
-                                <label for="name-label" class="name-label" >Message</label>
-                                <input type="Message"
-                                        class="name-text message-text"
-                                        placeholder=" "
-                                        required
-                                >
-
-                                <input type="submit" value="Contact" class="submit-button">
-                           
-                            </form>
                         </div>
-                   
+                     
                     </div>
-
+                    End of flex Container
                 </section>
+                 -->
+
             </main>    
            
         </div> 
@@ -138,5 +126,7 @@
             <!--JavaScript at end of body for optimized loading-->
       <!-- <script type="text/javascript" src="js/materialize.min.js"></script> -->
       
+      <script type="text/javascript" src="javascript/navbar.js" >  </script>
+
     </body>
 </html>
