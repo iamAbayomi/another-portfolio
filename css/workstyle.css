@@ -15,7 +15,7 @@ body{
 
 
 .work-section{
-     /* height: 100vh ;  */
+     height: 100% ;  
      /* padding-top: 20px; */
     background-color: #2762BC;   
     text-decoration: none;
