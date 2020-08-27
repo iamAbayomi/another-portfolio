@@ -29,6 +29,7 @@ header{
 
 .nav-id{
  display: flex;
+ margin-right: 25px;
 }
 
 .nav-id p{
@@ -43,6 +44,9 @@ header{
 .heading{
     font-size: 32px;
     font-weight: 650;
+}
+.no-underline{
+    text-decoration: none;
 }
 
 @media screen and (min-width: 600px){
