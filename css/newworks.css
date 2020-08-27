@@ -38,18 +38,30 @@ header{
    
 .main-section{
     margin: 15vh auto 30px auto;
-    width: 310px;
+    max-width: 850px;
 }
    
 .heading{
     font-size: 32px;
     font-weight: 650;
 }
+
 .no-underline{
     text-decoration: none;
 }
 
-@media screen and (min-width: 600px){
+.text-section{
+    margin: 30px;
+}
+
+.button-image{
+    float: right;
+    max-width: 40px;
+    margin: 120px 80px 0px;
+
+}
+
+/* @media screen and (min-width: 600px){
 .main-section{
     width: 550px;
 }
@@ -60,13 +72,5 @@ header{
 @media screen and (min-width: 800px){
     .main-section{
         width: 900px;
-    }   
-}
-
-/* 
-
-@media screen and (min-width: 500px){
-    .main-section{
-        width: 450px;
     }   
 } */
