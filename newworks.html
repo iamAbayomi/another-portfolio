@@ -11,13 +11,9 @@
             <a class="no-underline" href="/">
             <p class="home-icon">O.A</p>
             </a>
-            <div class="nav-id">
-                <p>
-                    WORK
-                </p>
-                <p>
-                    BLOG
-                </p>
+            <div id="top-bar" class="nav-id">
+                <a href="#work">WORK</a>
+                <a href="https://www.blog.oladiniabayomi.com" target="_blank">BLOG</a>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                     <i class="fa fa-bars"></i>
                 </a>
@@ -43,20 +39,24 @@
                 <p class="section-header" >My Recent Projects</p>
             </div>
             
-            <section class="portfolio-section" >
+            <section id="work" class="portfolio-section" >
+                <a href="https://www.spiinge.com" class="no-underline" target="_blank">
+                    <div class="portfolio-item">
+                        <img class="portfolio-image" src="images/homepage.png">
+                        <p class="portfolio-header" >Spiinge Web App</p>
+                        <p class="portfolio-body">The aim of Spiinge is to save users time by saving websites according to categories 
+                            and allow them to share their boards with other users. </p>
+                    </div>
+                </a>
+                <a href="https://www.spiinge.com" class="no-underline" target="_blank">
+                    <div class="portfolio-item">
+                        <img class="portfolio-image" src="images/other-sections.png">
+                        <p class="portfolio-header" >Spiinge Chrome Extension</p>
+                        <p class="portfolio-body"> The chrome extension allows with it's shortcut to
+                            save websites on the go.</p>
+                    </div>
+                </a>
                 
-                <div class="portfolio-item">
-                    <img class="portfolio-image" src="images/homepage.png">
-                    <p class="portfolio-header" >Spiinge Web App</p>
-                    <p class="portfolio-body">The aim of Spiinge is to save users time by saving websites according to categories 
-                        and allow them to share their boards with other users. </p>
-                </div>
-                <div class="portfolio-item">
-                    <img class="portfolio-image" src="images/other-sections.png">
-                    <p class="portfolio-header" >Spiinge Chrome Extension</p>
-                    <p class="portfolio-body"> The chrome extension allows with it's shortcut to
-                        save websites on the go.</p>
-                </div>
             </section>
             <footer>
                 <div class="footer-text-section">
@@ -89,6 +89,18 @@
             </div>
             </footer>
     </div>
+    
+<script>
+    function myFunction() {
+      var x = document.getElementById("top-bar");
+      if (x.className === "nav-id") {
+        x.className += " responsive";
+      } else {
+        x.className = "nav-id";
+      }
+    }
+    </script>
+    
     </body>
 
 </html>
