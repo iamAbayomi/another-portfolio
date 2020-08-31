@@ -33,8 +33,15 @@ header{
  margin-right: 25px;
 }
 
-.nav-id p{
+.nav-id a{
     margin: 20px;
+    color: #031E47;
+    text-decoration: none;
+}
+.no-underline{
+    margin: 20px;
+    color: #031E47;
+    text-decoration: none;
 }
  
 .container{
@@ -56,6 +63,13 @@ header{
 
 .no-underline{
     text-decoration: none;
+}
+
+.nav-id .icon{
+    color: #031E47;
+    margin: 12px 0px 0px 0px;
+    font-size: 26px;
+    display: none;
 }
 
 .text-section{
@@ -98,6 +112,10 @@ header{
     transition: 0.3s;
 }
 
+.portfolio-image:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
 .portfolio-header{
     font-size: 28px;
     font-weight: 500;
@@ -109,12 +127,12 @@ footer{
 }
 
 .footer-text-section{
-    margin: 10px 0px 110px 0px;
-    /* display: flex;
+    margin: 110px 0px 110px 0px;
+    padding: 110px 0px 110px 0px;
     justify-content: space-between;
     border: orangered;
     border-width: 5px;
-    border-style: solid; */
+    border-style: solid;
 }
 .footer-text{
     text-align: center;
@@ -160,15 +178,15 @@ footer{
         flex-direction: column;
         margin: 60px 0px 60px 0px;
         /* margin: 60px auto 60px auto; */
-        max-width: 650px;
+        max-width: 580px;
     }
     .portfolio-item{
-        margin: 10px 30px 100px 30px;
-        max-width: 650px;
+        margin: 10px 10px 100px 10px;
+        max-width: 580px;
     }
 
     .portfolio-image{
-        max-width: 650px;
+        max-width: 580px;
     }
     
     footer{
@@ -192,13 +210,24 @@ footer{
 }
 
 
-@media screen and (max-width: 560px){
+@media screen and (max-width: 600px){
     .container{
         max-width: 400px;
         margin:auto;
         /* border: orangered;
         border-width: 5px;
         border-style: solid; */
+    }
+
+    .nav-id p{
+        /* display: none; */
+    }
+
+    .nav-id .icon{
+        color: #031E47;
+        margin: 12px 0px 0px 0px;
+        font-size: 26px;
+        /* display: block; */
     }
     .main-section{
         /* width: 900px; */
@@ -237,7 +266,7 @@ footer{
 
 @media screen and (max-width: 450px){
     .container{
-        max-width: 300px;
+        max-width: 320px;
         margin:auto;
         /* border: orangered;
         border-width: 5px;
@@ -250,15 +279,15 @@ footer{
         flex-direction: column;
         /* margin: 60px 40px 60px 10px; */
         /* margin: 60px auto 60px auto; */
-        max-width: 300px;
+        max-width: 320px;
     }
     .portfolio-item{
         margin: 80px 0px;
-        max-width: 320px;
+        max-width: 300px;
     }
     
     .portfolio-image{
-        max-width: 300px;
+        max-width: 320px;
     }
     .contact-section{
         margin: 100px 0px 40px 0px;
