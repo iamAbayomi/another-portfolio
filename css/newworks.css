@@ -63,8 +63,10 @@ header{
 
 .button-image{
     float: right;
+    /* position: fixed; */
+    right: 0%;
     max-width: 40px;
-    margin: 140px 80px 120px;
+    margin: 140px 20px 120px;
 }
 
 .section{
@@ -100,13 +102,21 @@ header{
     font-weight: 500;
     margin-top: 60px;
 }
-.sm-section{
-    float: right;
-    display: flex;
-}
 
 footer{
     margin: 100px 0px 0px 0px;
+}
+
+.footer-text{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 650;   
+    margin: 10px 0px 60px 0px;
+}
+
+.sm-section{
+    float: right;
+    display: flex;
 }
 
 .sm-section p {
