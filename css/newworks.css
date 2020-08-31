@@ -40,6 +40,7 @@ header{
 .container{
     max-width: 1200px;
     margin: auto;
+    padding: 0px 20px 0px 20px;
 }
 
 .main-section{
@@ -66,7 +67,7 @@ header{
     /* position: fixed; */
     right: 0%;
     max-width: 40px;
-    margin: 140px 20px 120px;
+    margin: 160px 20px 120px;
 }
 
 .section{
@@ -107,12 +108,6 @@ footer{
     margin: 10px 0px 0px 0px;
 }
 
-.footer-text{
-    text-align: center;
-    font-size: 28px;
-    font-weight: 650;   
-    margin: 10px 10px 100px 0px;
-}
 .footer-text-section{
     margin: 10px 0px 110px 0px;
     /* display: flex;
@@ -120,6 +115,12 @@ footer{
     border: orangered;
     border-width: 5px;
     border-style: solid; */
+}
+.footer-text{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 650;   
+    margin: 10px 0px 100px 0px;
 }
 .contact-section{
     margin: 100px 0px 0px 0px;
@@ -153,33 +154,51 @@ footer{
     }
     .section{
         max-width: 550px;
-        margin:30px;
+        margin:0px;
     }
     .portfolio-section {
         flex-direction: column;
-        /* margin: 60px 40px 60px 10px; */
-        margin: 60px auto 60px auto;
+        margin: 60px 0px 60px 0px;
+        /* margin: 60px auto 60px auto; */
         max-width: 650px;
     }
     .portfolio-item{
         margin: 10px 30px 100px 30px;
-        max-width: 550px;
+        max-width: 650px;
     }
 
     .portfolio-image{
-        max-width: 550px;
+        max-width: 650px;
     }
     
-footer{
-    margin: 50px 0px 0px 30px;
-}
+    footer{
+        margin: 50px 0px 20px 0px;
+    }
+
+    
+
+    .sm-section-text{
+        display: flex;
+        margin: 10px 0px 10px 0px;
+        /* border: orangered;
+        border-width: 5px;
+        border-style: solid; */
+    }
+
+    .sm-section-text p {
+        margin:0px 20px 0px 0px;
+    }
+
 }
 
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 560px){
     .container{
-        max-width: 320px;
-        margin:10px;
+        max-width: 400px;
+        margin:auto;
+        /* border: orangered;
+        border-width: 5px;
+        border-style: solid; */
     }
     .main-section{
         /* width: 900px; */
@@ -188,17 +207,81 @@ footer{
         flex-direction: column;
         /* margin: 60px 40px 60px 10px; */
         /* margin: 60px auto 60px auto; */
-        max-width: 320px;
+        max-width: 400px;
     }
     .portfolio-item{
-        margin: 80px 10px;
+        margin: 80px 0px;
+        max-width: 400px;
+    }
+    
+    .portfolio-image{
+        max-width: 400px;
+    }
+    .contact-section{
+        margin: 100px 0px 0px 0px;
+        display: flex;
+        flex-direction: column;
+        /* border: orangered;
+        border-width: 5px;
+        border-style: solid; */
+    }
+    .footer-text{
+        text-align: left;
+        font-size: 28px;
+        font-weight: 650;   
+        margin: 10px 0px 100px 0px;
+    }
+    
+}
+
+
+@media screen and (max-width: 450px){
+    .container{
+        max-width: 300px;
+        margin:auto;
+        /* border: orangered;
+        border-width: 5px;
+        border-style: solid; */
+    }
+    .main-section{
+        /* width: 900px; */
+    }   
+    .portfolio-section {
+        flex-direction: column;
+        /* margin: 60px 40px 60px 10px; */
+        /* margin: 60px auto 60px auto; */
+        max-width: 300px;
+    }
+    .portfolio-item{
+        margin: 80px 0px;
         max-width: 320px;
     }
     
     .portfolio-image{
-        max-width: 320px;
+        max-width: 300px;
     }
+    .contact-section{
+        margin: 100px 0px 40px 0px;
+        display: flex;
+        flex-direction: column;
+        /* border: orangered;
+        border-width: 5px;
+        border-style: solid; */
+    }
+    .footer-text{
+        text-align: left;
+        font-size: 28px;
+        font-weight: 650;   
+        margin: 10px 0px 100px 0px;
+    }
+    
+    footer{
+        margin: 50px 0px 40px 0px;
+    }
+
 }
+
+
 /*
 @media screen and (min-width: 800px){
     .main-section{
